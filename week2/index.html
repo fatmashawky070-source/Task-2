@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta  charset="UTF-8"/>
+            <title>My Project</title>
+        </head>
+        <body>
+            <form action="test.py" method="Post">
+                <div>
+                    <label>Username</label>
+                    <br>
+                    <input  type="text" name="User" placeholder="Username" required>
+                </div>
+                <hr>
+                <div>
+                    <label>Password</label>
+                    <br>
+                    <input type="password" name="Pass"  placeholder="make a strong password" >
+                </div>
+                <hr>
+                <div>
+                    <label>Mobile</label>
+                    <br>
+                    <input  type="tel" name="Mob" placeholder="20100 (234) 123+" value="" >
+                </div>
+                <hr>
+                <div>
+                    <label>Email</label>
+                    <br>
+                    <input  type="email" name="Mail" placeholder="Complet your email"  required>
+                </div>
+                <hr>
+                <div>
+                    <label>Subject</label>
+                    <br>
+                    <input type="text" name="Sub" placeholder="Subject" >
+                </div>
+                <br>
+                <input type="hidden" name="ID" value="254568">
+                <input type="submit" value="Send Data">
+                <br>
+                <input type="reset" value="Empty Form">
+            </form>
+        </body>
+        <hr>
+        <input type="range" name="range" min="0" max="400" step="50" value="0">
+    </html>
